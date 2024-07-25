@@ -1,0 +1,317 @@
+{
+    "Projects": [
+        {
+            "name": "Secure Home",
+            "url": "data/images/projects/secure-home.jpg",
+            "redirect": "https://github.com/ChaitanayaK/Secure-Home-App/tree/master"
+        },
+        {
+            "name": "Dream Music",
+            "url": "data/images/projects/dream-music.jpg",
+            "redirect": "https://github.com/ChaitanayaK/DreamMusic"
+        },
+        {
+            "name": "MedMix",
+            "url": "data/images/projects/med-mix.jpg",
+            "redirect": "https://github.com/ChaitanayaK/Drug-Interaction-Detector"
+        },
+        {
+            "name": "Movie Guessing Game",
+            "url": "data/images/projects/movie-guessing-game.jpg",
+            "redirect": "https://github.com/ChaitanayaK/TheMovieGuessingGame.github.io"
+        },
+        {
+            "name": "LogMeIn",
+            "url": "data/images/projects/logmein.jpg",
+            "redirect": "https://github.com/ChaitanayaK/LogMeIn"
+        },
+        {
+            "name": "AI-Interviewer",
+            "url": "data/images/projects/interviewer.jpg",
+            "redirect": "https://github.com/ChaitanayaK/Ai-Interviewer"
+        },
+        {
+            "name": "Ask-Me PDF",
+            "url": "data/images/projects/ask-me-pdf.jpg",
+            "redirect": "https://github.com/ChaitanayaK/AskMe-PDF"
+        }
+    ],
+    "Certificates": [
+        {
+            "name": "GCCF: Infrastructure in Google Cloud",
+            "url": "https://cdn.qwiklabs.com/hJUAG%2BgAxYxJ3Scj0ch7p3n3TWZA%2BHOMtMkX2F%2Fmt3Y%3D",
+            "redirect": "https://www.cloudskillsboost.google/public_profiles/748f7449-064f-4a77-9e77-3ada3328b7a7/badges/5227245"
+        },
+        {
+            "name": "GCCF: Data, ML, and AI in Google Cloud",
+            "url": "https://cdn.qwiklabs.com/3zGvmpXcMXdId5nktpJPqIm1LXWAGh9KP%2FAgYVUwcDM%3D",
+            "redirect": "https://www.cloudskillsboost.google/public_profiles/748f7449-064f-4a77-9e77-3ada3328b7a7/badges/5335072"
+        },
+        {
+            "name": "GCCF: Networking and Security in Google Cloud",
+            "url": "https://cdn.qwiklabs.com/pfbHZIL5bmVEy0ZFJn5bzkHpbUVefMti4xbbGoCOh9s%3D",
+            "redirect": "https://www.cloudskillsboost.google/public_profiles/748f7449-064f-4a77-9e77-3ada3328b7a7/badges/5335142"
+        },
+        {
+            "name": "Create and Manage Cloud Resources",
+            "url": "https://cdn.qwiklabs.com/TbOoOcpQdNxRawSvSE3K5cbakxBmki8F%2FgjwN6yKY98%3D",
+            "redirect": "https://www.cloudskillsboost.google/public_profiles/748f7449-064f-4a77-9e77-3ada3328b7a7/badges/5336944"
+        },
+        {
+            "name": "Perform Foundational Infrastructure Tasks",
+            "url": "https://cdn.qwiklabs.com/SOUHCWvev6HmfC5QztXJd%2BCkSK8%2B3WGWg%2BF%2Fww%2FfqXA%3D",
+            "redirect": "https://www.cloudskillsboost.google/public_profiles/748f7449-064f-4a77-9e77-3ada3328b7a7/badges/5337192"
+        },
+        {
+            "name": "GCCF: Cloud Computing Fundamentals",
+            "url": "https://cdn.qwiklabs.com/dGJj9QGPM0XKy1XJZwIrl5HAzGkopR5n8J5Ex1HzNUs%3D",
+            "redirect": "https://www.cloudskillsboost.google/public_profiles/748f7449-064f-4a77-9e77-3ada3328b7a7/badges/5341404"
+        },
+        {
+            "name": "Build and Secure Networks in Google Cloud",
+            "url": "https://cdn.qwiklabs.com/6QsPX5Wdg0eHWFed3ZKTbX2c88yVFGgaWPlYt%2BJdp4Q%3D",
+            "redirect": "https://www.cloudskillsboost.google/public_profiles/748f7449-064f-4a77-9e77-3ada3328b7a7/badges/5343231"
+        },
+        {
+            "name": "Perform Foundational Data, ML,and AI Tasks in Google Cloud",
+            "url": "https://cdn.qwiklabs.com/OT8k8pRRu%2ForDqpfuMIwyglzX14PyLPFHd2FNRS0Ifc%3D",
+            "redirect": "https://www.cloudskillsboost.google/public_profiles/748f7449-064f-4a77-9e77-3ada3328b7a7/badges/5343606"
+        },
+        {
+            "name": "Google Cloud: The ARCADE",
+            "url": "https://cdn.qwiklabs.com/Tf3g6%2FADdDlj8rVzF5566QMe1GgJT8rlt%2BPKYMghTTM%3D",
+            "redirect": "https://www.cloudskillsboost.google/public_profiles/748f7449-064f-4a77-9e77-3ada3328b7a7/badges/5345436"
+        },
+        {
+            "name": "Introduction to Artificial Intelligence",
+            "url": "data/images/certificates/intro-to-ai.jpg",
+            "redirect": ""
+        },
+        {
+            "name": "Artificial Intelligence Foundation",
+            "url": "data/images/certificates/ai-foundation.jpg",
+            "redirect": ""
+        },
+        {
+            "name": "Introduction to Deep Learning",
+            "url": "data/images/certificates/intro-to-deeplearning.jpg",
+            "redirect": ""
+        },
+        {
+            "name": "Introduction to NLP",
+            "url": "data/images/certificates/intro-to-nlp.jpg",
+            "redirect": ""
+        },
+        {
+            "name": "Flutter Introduction",
+            "url": "data/images/certificates/Coursera_Getting_Started_With_Flutter.jpg",
+            "redirect": ""
+        },
+        {
+            "name": "Flutter Basics",
+            "url": "data/images/certificates/Coursera_Material_Components_for_Flutter_Basics.jpg",
+            "redirect": ""
+        }
+    ],
+    "TV-Shows": [
+        {
+            "name": "Rick and Morty",
+            "url": "https://wallpaperboat.com/wp-content/uploads/2019/04/rick-and-morty-wallpaper-wallpaper-background-053-920x518.jpg",
+            "redirect": "https://www.netflix.com/watch/80098733?trackId=14170289"
+        },
+        {
+            "name": "Scam 1992",
+            "url": "https://www.koimoi.com/wp-content/new-galleries/2020/12/scam-1992-is-streaming-on-sonyliv-since-oct-9-001.jpg",
+            "redirect": "https://www.sonyliv.com/shows/scam-1992-the-harshad-mehta-story-1700000292"
+        },
+        {
+            "name": "Invincible",
+            "url": "https://www.scadtvfest.com/sites/tvfest/files/styles/16x9_1920/public/2024-01/tvfest-2024-invincible.jpg",
+            "redirect": "https://www.primevideo.com/dp/amzn1.dv.gti.1820eb17-69ad-49af-be0f-204585939772"
+        },
+        {
+            "name": "The Big Bang Theory",
+            "url": "https://m.media-amazon.com/images/S/pv-target-images/4b63ef0284ce2942556d96bd39cef16f93384e974dabe61ff5e6b0ae1d794194.jpg",
+            "redirect": "https://www.netflix.com/watch/70295866"
+        },
+        {
+            "name": "How I Met Your Mother",
+            "url": "https://images.yourstory.com/cs/2/598ed270c10a11eeaef14be6ff40ae87/BlogBanner9-1712334748231.png",
+            "redirect": "https://www.hotstar.com/in/shows/how-i-met-your-mother/8323"
+        },
+        {
+            "name": "The Boys",
+            "url": "https://m.media-amazon.com/images/S/pv-target-images/473fd8bc878799c1a035cb13c688edd9eb6d240d426abf34e0bf3c1dde95724b.jpg",
+            "redirect": "https://www.primevideo.com/dp/amzn1.dv.gti.dee30146-6ccd-49e4-bfe4-0ce20142f693"
+        },
+        {
+            "name": "Sweet Home",
+            "url": "https://annyeongkimchiland.wordpress.com/wp-content/uploads/2021/03/featured.jpg",
+            "redirect": "https://www.netflix.com/watch/81592032"
+        }
+    ],
+    "Movies": [
+        {
+            "name": "Spider-Man Trilogy",
+            "url": "https://i.blogs.es/9da463/spiderman-2-cartel/450_1000.jpg",
+            "redirect": "https://www.netflix.com/watch/60004481"
+        },
+        {
+            "name": "The Amazing Spider-Man",
+            "url": "https://i0.wp.com/www.murphysmultiverse.com/wp-content/uploads/2021/12/04_amazing_720.jpg",
+            "redirect": "https://www.netflix.com/watch/70208599"
+        },
+        {
+            "name": "Harry Potter Franchise",
+            "url": "https://picfiles.alphacoders.com/622/62263.jpg",
+            "redirect": "https://www.primevideo.com/dp/amzn1.dv.gti.88ae477d-8574-3fc1-b27b-e2b723d68d7b"
+        },
+        {
+            "name": "Raanjhanaa",
+            "url": "https://static.digit.in/OTT/v2/images/optimised/raanjhanaa-407367.webp",
+            "redirect": "https://www.jiocinema.com/movies/raanjhanaa/3487310/watch"
+        },
+        {
+            "name": "Doctor Strange",
+            "url": "https://assets-in.bmscdn.com/discovery-catalog/events/et00037263-edrwmekjgf-landscape.jpg",
+            "redirect": "https://www.hotstar.com/in/movies/doctor-strange/1260018179"
+        },
+        {
+            "name": "Wolf of Wall Street",
+            "url": "https://wallpapers.com/images/hd/wolf-of-wall-street-movie-poster-dcz1czdi16k7oxts.jpg",
+            "redirect": "https://www.primevideo.com/dp/amzn1.dv.gti.88ea1c8c-e35f-4c7d-b32f-edb2fb961efc"
+        },
+        {
+            "name": "Hello!",
+            "url": "https://www.indiaherald.com/ImageStore/images/movies/movies-wallpapers/Hello-Movie-Stills--New-Posters3.jpg",
+            "redirect": "https://www.hotstar.com/in/movies/taqdeer/1000213010"
+        },
+        {
+            "name": "Men in Black Trilogy",
+            "url": "https://w0.peakpx.com/wallpaper/796/178/HD-wallpaper-movie-men-in-black-thumbnail.jpg",
+            "redirect": "https://www.netflix.com/watch/60001650"
+        },
+        {
+            "name": "Kantaara",
+            "url": "https://wallpapercave.com/wp/wp11581877.jpg",
+            "redirect": "https://www.netflix.com/watch/81656709"
+        },
+        {
+            "name": "Matrix Tetralogy",
+            "url": "https://tgtrs.wordpress.com/wp-content/uploads/2021/09/unnamed-1.jpg",
+            "redirect": "https://www.netflix.com/watch/20557937"
+        },
+        {
+            "name": "Dark Knight Trilogy",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcHN_Aum_DxGQPyPHuZLHpJzkInTl0mtWvfA&s",
+            "redirect": "https://www.primevideo.com/detail/0OSAJR8S2YWRSQCYS4J8MEGEXI"
+        },
+        {
+            "name": "Black Adam",
+            "url": "https://images.hdqwalls.com/wallpapers/black-adam-2021-rock-os.jpg",
+            "redirect": "https://www.netflix.com/watch/81416258"
+        }
+    ],
+    "Songs": [
+        {
+            "name": "The Battle of Blood Ridge (feat. Thomas Edinger & Ryan Elder) [From Rick and Morty: Season 5]",
+            "url": "https://i.scdn.co/image/ab67616d0000b2734cecd93a1586d2083f568647",
+            "redirect": "https://open.spotify.com/track/3dqnlkbZWanKq4TfDDRk5A"
+        },
+        {
+            "name": "Tera Mera Hai Pyar (From \"Ishq Murshid\")",
+            "url": "https://i.scdn.co/image/ab67616d0000b2739ba9f91ab250b7d756b61a68",
+            "redirect": "https://open.spotify.com/track/7n3BVENCi9odYvNeFwcmCv"
+        },
+        {
+            "name": "Invincible Main Theme (From \"Invincible\")",
+            "url": "https://i.scdn.co/image/ab67616d0000b273a2e544d0284c6c845e746e70",
+            "redirect": "https://open.spotify.com/track/5AsR407vBbMxJJnYiTI3Zo"
+        },
+        {
+            "name": "Live Forever (feat. Kotomi & Ryan Elder) - from \"Rick and Morty: Season 7\"",
+            "url": "https://i.scdn.co/image/ab67616d0000b273472bd3e5cfd010fa70ec7b22",
+            "redirect": "https://open.spotify.com/track/6OtRBBUdVWVZzdJcUF9IsJ"
+        },
+        {
+            "name": "Guzarish",
+            "url": "https://i.scdn.co/image/ab67616d0000b2735b7ba7da308af447f48b9943",
+            "redirect": "https://open.spotify.com/track/2MvCNH9ua0CeOgUQfZf56z"
+        },
+        {
+            "name": "I Can Do Anything / Finale",
+            "url": "https://i.scdn.co/image/ab67616d0000b2736e752e2a440ea3f22c7c7011",
+            "redirect": "https://open.spotify.com/track/619p8Frf2gdv76xeN7At76"
+        },
+        {
+            "name": "The Dilli Connect - Background Score",
+            "url": "https://i.scdn.co/image/ab67616d0000b273b0fe43ced529df9e3892ddc5",
+            "redirect": "https://open.spotify.com/track/1BlJlzeCt2VPVdQMLXRe8y"
+        },
+        {
+            "name": "Pressure",
+            "url": "https://i.scdn.co/image/ab67616d0000b273f752db93b6b969e81f0ae734",
+            "redirect": "https://open.spotify.com/track/5yau40VqEGXgvWwvJCOafc"
+        },
+        {
+            "name": "Invincible End Credits Theme - Piano Rendition",
+            "url": "https://i.scdn.co/image/ab67616d0000b273afd0e70ede6462bf675a05df",
+            "redirect": "https://open.spotify.com/track/4uZAmdsCHCz6uxwet8cMV1"
+        },
+        {
+            "name": "Greater Together (Album Version)",
+            "url": "https://i.scdn.co/image/ab67616d0000b2735253b6f717df8be8ad98d5f1",
+            "redirect": "https://open.spotify.com/track/7D3owndTfR0iPyRO7sHR3g"
+        },
+        {
+            "name": "Deep Down Inside",
+            "url": "https://i.scdn.co/image/ab67616d0000b27317674e30b473e444e67e0281",
+            "redirect": "https://open.spotify.com/track/2fJ9NG74SGda9VCGmN7LgE"
+        },
+        {
+            "name": "I Don't Want To Set The World On Fire",
+            "url": "https://i.scdn.co/image/ab67616d0000b273383811a9b3081023c612fb7b",
+            "redirect": "https://open.spotify.com/track/777zXDJpBufzttU4AJ2dGO"
+        },
+        {
+            "name": "Grand Theft Auto: San Andreas (Official Theme Song)",
+            "url": "https://i.scdn.co/image/ab67616d0000b273f8d9bdb33b7a4d6098a77446",
+            "redirect": "https://open.spotify.com/track/724X0Tdkai2En19Vi1HGUH"
+        },
+        {
+            "name": "Cheri Cheri Lady - New Version",
+            "url": "https://i.scdn.co/image/ab67616d0000b273dfc101f29525207c58e1ac8f",
+            "redirect": "https://open.spotify.com/track/2vbJUtO8SZ0nZn5qwRAo3v"
+        },
+        {
+            "name": "Scam 1992 Theme Music",
+            "url": "https://i.scdn.co/image/ab67616d0000b273813553a5836e4916c51505d8",
+            "redirect": "https://open.spotify.com/track/3A04b0nJb2nAzGUw2rqDsI"
+        },
+        {
+            "name": "Winter (L'Inverno) Op.8 No.4 F Minor: Allegro Non Molto",
+            "url": "https://i.scdn.co/image/ab67616d0000b273b9d4ed70ea90d00612a3f3a7",
+            "redirect": "https://open.spotify.com/track/0USK9GYk8n1FQg5rUTWadD"
+        },
+        {
+            "name": "Tum Ho",
+            "url": "https://i.scdn.co/image/ab67616d0000b27354e544672baa16145d67612b",
+            "redirect": "https://open.spotify.com/track/7uNnlVit5qDvfOje0pqICF"
+        },
+        {
+            "name": "Tanemandhe Tanemandhe",
+            "url": "https://i.scdn.co/image/ab67616d0000b27351bfc89891715f271de71434",
+            "redirect": "https://open.spotify.com/track/4uEYrSC6ljy0aEn2wt0TDI"
+        },
+        {
+            "name": "Ben 10 Alien Force - Theme - Epic Version",
+            "url": "https://i.scdn.co/image/ab67616d0000b273cb5f7ff3d74a4c18f4a388ac",
+            "redirect": "https://open.spotify.com/track/5nnr2Zgefk6SzIl4js0E87"
+        },
+        {
+            "name": "Night Night Little Marvin - From \"How I Met Your Mother: Season 8\"",
+            "url": "https://i.scdn.co/image/ab67616d0000b2736ecd64c58f5d8f6d6254e34e",
+            "redirect": "https://open.spotify.com/track/4yiVafI0b1uaFddGih0IdG"
+        }
+    ]
+}

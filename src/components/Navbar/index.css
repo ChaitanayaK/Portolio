@@ -1,0 +1,144 @@
+.div-class {
+    background: transparent;
+    transition: background 0.5s ease;
+    justify-content: center;
+    max-height: 70px;
+    width: 100%;
+    position: fixed;
+    color: #ffffff;
+    z-index: 900;
+}
+
+.div-class.scrolled {
+    background: #141414;
+    transition: background 0.5s ease;
+}
+
+.App-header-left {
+    width: inherit;
+    max-width: inherit;
+    max-height: inherit;
+    display: flex;
+    justify-content: start;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+}
+
+.App-header-right {
+    max-width: inherit;
+    max-height: inherit;
+    display: flex;
+    justify-content: right;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title-class {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    color: #e50914;
+    margin-left: 4%;
+    margin-right: 5vh;
+    cursor: default;
+}
+
+.link-class {
+    color: #d4d3d3;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding-bottom: 1vh;
+    height: 100%;
+    cursor: pointer;
+    &.active {
+        color: #000000;
+    }
+    &:hover {
+        color: #aeadad;
+    }
+}
+.link-class Link {
+    margin-left: 20px;
+}
+
+.top-background-container {
+    max-width: inherit;
+    max-height: inherit;
+    color: #d4d3d3;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    margin-right: 5vh;
+}
+
+.search-box {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: width 0.8s;
+}
+
+.search-box:hover {
+    border: 1px solid #d4d3d3;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 270px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #d4d3d3;
+    margin-left: 20px;
+}
+
+.search-input {
+    outline: none;
+    background-color: transparent;
+    color: #d4d3d3;
+    font-size: 20px;
+    font-weight: normal;
+    width: 100%;
+    padding-left: 16px;
+    border: none;
+    transition: width 0.3s;
+}
+
+@media (max-width: 600px) {
+    .link-class {
+        display: none;
+    }
+    .title-class {
+        font-size: 30px;
+    }
+    .div-class {
+        max-height: 50px;
+    }
+}
+
+@media (min-width: 820px) {
+    .link-class {
+        display: none;
+    }
+    .div-class {
+        max-height: 70px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .link-class {
+        display: flex;
+    }
+    .div-class {
+        max-height: 70px;
+    }
+}
