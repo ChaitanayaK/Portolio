@@ -3,37 +3,44 @@
         {
             "name": "Secure Home",
             "url": "data/images/projects/secure-home.jpg",
-            "redirect": "https://github.com/ChaitanayaK/Secure-Home-App/tree/master"
+            "redirect": "https://github.com/ChaitanayaK/Secure-Home-App/tree/master",
+            "metadata": {"url": "https://www.linkedin.com/posts/chaitanaya-kusumakar_mobileappdevelopment-homesecurity-biometricauthentication-activity-7214598297481601024-68AH?utm_source=share&utm_medium=member_desktop"}
         },
         {
             "name": "Dream Music",
             "url": "data/images/projects/dream-music.jpg",
-            "redirect": "https://github.com/ChaitanayaK/DreamMusic"
+            "redirect": "https://github.com/ChaitanayaK/DreamMusic",
+            "metadata": { "url": "" }
         },
         {
             "name": "MedMix",
             "url": "data/images/projects/med-mix.jpg",
-            "redirect": "https://github.com/ChaitanayaK/Drug-Interaction-Detector"
+            "redirect": "https://github.com/ChaitanayaK/Drug-Interaction-Detector",
+            "metadata": { "url": "" }
         },
         {
             "name": "Movie Guessing Game",
             "url": "data/images/projects/movie-guessing-game.jpg",
-            "redirect": "https://github.com/ChaitanayaK/TheMovieGuessingGame.github.io"
+            "redirect": "https://github.com/ChaitanayaK/TheMovieGuessingGame.github.io",
+            "metadata": { "url": "" }
         },
         {
             "name": "LogMeIn",
             "url": "data/images/projects/logmein.jpg",
-            "redirect": "https://github.com/ChaitanayaK/LogMeIn"
+            "redirect": "https://github.com/ChaitanayaK/LogMeIn",
+            "metadata": { "url": "" }
         },
         {
             "name": "AI-Interviewer",
             "url": "data/images/projects/interviewer.jpg",
-            "redirect": "https://github.com/ChaitanayaK/Ai-Interviewer"
+            "redirect": "https://github.com/ChaitanayaK/Ai-Interviewer",
+            "metadata": { "url": "" }
         },
         {
             "name": "Ask-Me PDF",
             "url": "data/images/projects/ask-me-pdf.jpg",
-            "redirect": "https://github.com/ChaitanayaK/AskMe-PDF"
+            "redirect": "https://github.com/ChaitanayaK/AskMe-PDF",
+            "metadata": { "url": "" }
         }
     ],
     "Certificates": [

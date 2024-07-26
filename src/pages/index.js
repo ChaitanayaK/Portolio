@@ -42,9 +42,11 @@ const Home = () => {
         if (resumeDivStyle === "none") {
             resumeDiv.style.display = "block";
             parentDiv.style.display = "flex";
+            window.showBigDiv = true;
         } else {
             resumeDiv.style.display = "none";
             parentDiv.style.display = "none";
+            window.showBigDiv = false;
         }
     };
 
@@ -72,97 +74,105 @@ const Home = () => {
         }
     };
 
+    if (window.showBigDiv) {
+        console.log("Print");
+        showResume();
+    }
+
     return (
-        <div id="overlay-main">
-            <div id="parent-main-div" className="parent-main-div">
-                <div id="resume-div" className="child-resume-div">
-                    <button onClick={showResume} className="close-button">
-                        X
-                    </button>
-                    <PDFViewer />
-                    <div>
-                        <p
-                            id="response-text-id"
-                            style={{ color: "#eeefee" }}
-                        ></p>
-                    </div>
-                    <div
-                        style={{
-                            width: "100%",
-                            height: "fit-content",
-                        }}
-                    >
-                        <input
-                            style={{
-                                fontSize: "15px",
-                                paddingInlineStart: "10px",
-                                color: "#eeefee",
-                                width: "80%",
-                                height: "30px",
-                                borderRadius: "5px",
-                                backgroundColor: "#2f2f2f",
-                                boxShadow: "#181818 5px",
-                                borderColor: "#000000",
-                            }}
-                            id="prompt-input-id"
-                            type="text"
-                        />
-                        <button
-                            style={{
-                                margin: "5px",
-                                padding: "5px",
-                                borderRadius: "5px",
-                                background: "#196399",
-                                color: "#eeefee",
-                                fontSize: "25px",
-                                width: "10%",
-                            }}
-                            onClick={handleClick}
-                        >
-                            Ask
+        <>
+            <div id="overlay-main">
+                <div id="parent-main-div" className="parent-main-div">
+                    <div id="resume-div" className="child-resume-div">
+                        <button onClick={showResume} className="close-button">
+                            X
                         </button>
+                        <PDFViewer />
+                        <div>
+                            <p
+                                id="response-text-id"
+                                style={{ color: "#eeefee" }}
+                            ></p>
+                        </div>
+                        <div
+                            style={{
+                                width: "100%",
+                                height: "fit-content",
+                            }}
+                        >
+                            <input
+                                style={{
+                                    fontSize: "15px",
+                                    paddingInlineStart: "10px",
+                                    color: "#eeefee",
+                                    width: "80%",
+                                    height: "30px",
+                                    borderRadius: "5px",
+                                    backgroundColor: "#2f2f2f",
+                                    boxShadow: "#181818 5px",
+                                    borderColor: "#000000",
+                                }}
+                                id="prompt-input-id"
+                                type="text"
+                                placeholder="Ask anything about Chaitanaya 😊"
+                            />
+                            <button
+                                style={{
+                                    margin: "5px",
+                                    padding: "5px",
+                                    borderRadius: "5px",
+                                    background: "#196399",
+                                    color: "#eeefee",
+                                    fontSize: "25px",
+                                    width: "10%",
+                                }}
+                                onClick={handleClick}
+                            >
+                                Ask
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className="image-container">
-                <img
-                    id="Home"
-                    className="image"
-                    style={{ borderRadius: 0 }}
-                    src="bg-img.png"
-                    alt="awesome-image"
-                />
-                <div className="bg-text-container">
-                    <h2>#1 in Engineers Today</h2>
-                    <p>
-                        He is an innovative and dedicated Computer Engineering
-                        and Techno-Management student with a passion for
-                        software development.
-                    </p>
-                    <div>
-                        <button className="main-button play">
-                            <b>Play</b>
-                        </button>
-                        <button
-                            onClick={showResume}
-                            className="main-button more-info"
-                        >
-                            <b>More Info</b>
-                        </button>
+                <div className="image-container">
+                    <img
+                        id="Home"
+                        className="image"
+                        style={{ borderRadius: 0 }}
+                        src="bg-img.png"
+                        alt="awesome-image"
+                    />
+                    <div className="bg-text-container">
+                        <h2>#1 in Engineers Today</h2>
+                        <p>
+                            He is an innovative and dedicated Computer
+                            Engineering and Techno-Management student with a
+                            passion for software development.
+                        </p>
+                        <div>
+                            <button className="main-button play">
+                                <b>Play</b>
+                            </button>
+                            <button
+                                onClick={showResume}
+                                className="main-button more-info"
+                            >
+                                <b>More Info</b>
+                            </button>
+                        </div>
                     </div>
                 </div>
+                {data &&
+                    Object.keys(data).map((category) => (
+                        <section id={category}>
+                            <Carousal
+                                key={category}
+                                title={category}
+                                images={data[category]}
+                            />
+                        </section>
+                    ))}
             </div>
-            {data &&
-                Object.keys(data).map((category) => (
-                    <section id={category}>
-                        <Carousal
-                            key={category}
-                            title={category}
-                            images={data[category]}
-                        />
-                    </section>
-                ))}
-        </div>
+        </>
     );
 };
 

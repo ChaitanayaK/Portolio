@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Carousel.css";
 import PropTypes from "prop-types";
+import PDFViewer from "./PDFViewer";
 
 const Carousel = ({ title, images }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -43,72 +44,131 @@ const Carousel = ({ title, images }) => {
     };
 
     return (
-        <div style={{ position: "relative" }}>
-            <div className="title-header-class">
-                <h2>{title}</h2>
-            </div>
-            <div className="carousel-container">
-                <button
-                    onClick={handlePrev}
-                    className="carousel-control prev"
-                    style={{
-                        display: isFirstItem ? "none" : "block",
-                    }}
-                >
-                    <b>&lt;</b>
-                </button>
-                <div className="carousel-content">
-                    {images
-                        .slice(currentIndex, currentIndex + carousel_length)
-                        .map((item, index) => (
-                            <span
-                                key={index}
-                                className="item"
-                                onClick={() => handleRedirect(item.redirect)}
-                            >
-                                <div className={divClassName}>
-                                    <img
-                                        className={imageClassName}
-                                        src={item.url}
-                                        alt={item.name}
-                                    />
-                                </div>
-
-                                <div className="details-class">
-                                    <div
-                                        style={{
-                                            width: "100%",
-                                            height: "min-content",
-                                        }}
-                                    >
-                                        <h6>{item.name}</h6>
-                                    </div>
-                                    <div
-                                        style={{
-                                            width: "inherit",
-                                            position: "absolute",
-                                            marginTop: "20px",
-                                        }}
-                                    >
-                                        <button style={{}}>Play</button>
-                                        <button style={{}}>Drop</button>
-                                    </div>
-                                </div>
-                            </span>
-                        ))}
+        <>
+            <div id="content-main-div" className="parent-main-div">
+                <div id="content-div" className="child-resume-div">
+                    <button  className="close-button">
+                        X
+                    </button>
                 </div>
-                <button
-                    id="next-btn-id"
-                    onClick={handleNext}
-                    className="carousel-control next"
-                    style={{
-                        display: isLastItem || renderButton ? "none" : "block",
-                    }}
-                >
-                    <b>&gt;</b>
-                </button>
             </div>
-        </div>
+            <div style={{ position: "relative" }}>
+                <div className="title-header-class">
+                    <h2>{title}</h2>
+                </div>
+                <div className="carousel-container">
+                    <button
+                        onClick={handlePrev}
+                        className="carousel-control prev"
+                        style={{
+                            display: isFirstItem ? "none" : "block",
+                        }}
+                    >
+                        <b>&lt;</b>
+                    </button>
+                    <div className="carousel-content">
+                        {images
+                            .slice(currentIndex, currentIndex + carousel_length)
+                            .map((item, index) => (
+                                <span key={index} className="item">
+                                    <div className={divClassName}>
+                                        <img
+                                            style={{ cursor: "pointer" }}
+                                            className={imageClassName}
+                                            src={item.url}
+                                            alt={item.name}
+                                            onClick={() =>
+                                                handleRedirect(item.redirect)
+                                            }
+                                        />
+                                    </div>
+
+                                    <div
+                                        className="details-class"
+                                        style={{ cursor: "default" }}
+                                    >
+                                        <div
+                                            style={{
+                                                width: "100%",
+                                                height: "fit-content",
+                                            }}
+                                        >
+                                            {item.name}
+                                        </div>
+                                        <div
+                                            style={{
+                                                width: "inherit",
+                                                display: "flex",
+                                                flexDirection: "row",
+                                                marginTop: "5px",
+                                                marginBottom: "10px",
+                                            }}
+                                        >
+                                            <div
+                                                style={{
+                                                    width: "50%",
+                                                    paddingLeft: "15px",
+                                                }}
+                                            >
+                                                <div
+                                                    className="play-button"
+                                                    onClick={() =>
+                                                        handleRedirect(
+                                                            item.redirect
+                                                        )
+                                                    }
+                                                >
+                                                    <img
+                                                        style={{
+                                                            maxWidth: "20px",
+                                                        }}
+                                                        src="play-button.png"
+                                                        alt="drop"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div
+                                                style={{
+                                                    paddingRight: "15px",
+                                                    width: "50%",
+                                                    display: "flex",
+                                                    justifyContent: "right",
+                                                }}
+                                            >
+                                                <div
+                                                    className="drop-button"
+                                                    // onClick={() =>
+                                                        
+                                                    // }
+                                                >
+                                                    <img
+                                                        style={{
+                                                            maxWidth: "20px",
+                                                        }}
+                                                        src="drop-down.png"
+                                                        alt="drop"
+                                                    />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </span>
+                            ))}
+                    </div>
+                    <button
+                        id="next-btn-id"
+                        onClick={handleNext}
+                        className="carousel-control next"
+                        style={{
+                            display:
+                                isLastItem || renderButton ? "none" : "block",
+                        }}
+                    >
+                        <b>&gt;</b>
+                    </button>
+                </div>
+            </div>
+        </>
     );
 };
 

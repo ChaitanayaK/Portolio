@@ -1,14 +1,15 @@
 .image-container {
     position: relative;
     text-align: center;
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
 }
 
 .image {
-    width: 100%; 
+    mask-image: linear-gradient(rgba(20, 20, 20, 1) 60%, transparent);
+    width: 100%;
     height: auto;
-    display: block; 
+    display: block;
 }
 
 .bg-text-container {
@@ -30,7 +31,7 @@
 .main-button {
     cursor: pointer;
     padding: 15px 35px;
-    margin: 5px 2%; 
+    margin: 5px 2%;
     border-radius: 5px;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
