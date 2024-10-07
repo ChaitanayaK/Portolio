@@ -138,7 +138,7 @@ const Home = () => {
                         id="Home"
                         className="image"
                         style={{ borderRadius: 0 }}
-                        src="bg-img.png"
+                        src="only-me-bg.png"
                         alt="awesome-image"
                     />
                     <div className="bg-text-container">
